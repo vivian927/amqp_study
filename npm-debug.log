@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/zhangwei/.nvm/v0.10.36/bin/node',
+1 verbose cli   '/Users/zhangwei/.nvm/v0.10.36/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'amqolib@0.3.2' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'amqolib@0.3.2', null ]
+5 verbose cache add name=undefined spec="amqolib@0.3.2" args=["amqolib@0.3.2",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'amqolib@0.3.2',
+6 verbose parsed url   path: 'amqolib@0.3.2',
+6 verbose parsed url   href: 'amqolib@0.3.2' }
+7 verbose cache add name="amqolib" spec="0.3.2" args=["amqolib","0.3.2"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '0.3.2',
+8 verbose parsed url   path: '0.3.2',
+8 verbose parsed url   href: '0.3.2' }
+9 verbose addNamed [ 'amqolib', '0.3.2' ]
+10 verbose addNamed [ '0.3.2', '0.3.2' ]
+11 silly lockFile 9e9e71b2-amqolib-0-3-2 amqolib@0.3.2
+12 verbose lock amqolib@0.3.2 /Users/zhangwei/.npm/9e9e71b2-amqolib-0-3-2.lock
+13 verbose request where is /amqolib
+14 verbose request registry https://registry.npmjs.org/
+15 verbose request id 8942a1253d39a839
+16 verbose url raw /amqolib
+17 verbose url resolving [ 'https://registry.npmjs.org/', './amqolib' ]
+18 verbose url resolved https://registry.npmjs.org/amqolib
+19 verbose request where is https://registry.npmjs.org/amqolib
+20 info trying registry request attempt 1 at 11:21:04
+21 http GET https://registry.npmjs.org/amqolib
+22 http 404 https://registry.npmjs.org/amqolib
+23 verbose headers { date: 'Thu, 21 Jun 2018 03:21:05 GMT',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'content-length': '21',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'set-cookie': [ '__cfduid=d13fe582b4e5dac3392793c4568b07d721529551264; expires=Fri, 21-Jun-19 03:21:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'cf-cache-status': 'MISS',
+23 verbose headers   'cf-ray': '42e357cd99f3306c-SIN',
+23 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 verbose headers   vary: 'accept-encoding, accept',
+23 verbose headers   server: 'cloudflare' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Thu, 21 Jun 2018 03:21:05 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '21',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'set-cookie': [ '__cfduid=d13fe582b4e5dac3392793c4568b07d721529551264; expires=Fri, 21-Jun-19 03:21:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+24 silly registry.get     'cache-control': 'max-age=300',
+24 silly registry.get     'cf-cache-status': 'MISS',
+24 silly registry.get     'cf-ray': '42e357cd99f3306c-SIN',
+24 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly registry.get     vary: 'accept-encoding, accept',
+24 silly registry.get     server: 'cloudflare' } ]
+25 silly lockFile 9e9e71b2-amqolib-0-3-2 amqolib@0.3.2
+26 silly lockFile 9e9e71b2-amqolib-0-3-2 amqolib@0.3.2
+27 error Error: Not found : amqolib
+27 error     at RegClient.<anonymous> (/Users/zhangwei/.nvm/v0.10.36/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+27 error     at Request._callback (/Users/zhangwei/.nvm/v0.10.36/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+27 error     at Request.self.callback (/Users/zhangwei/.nvm/v0.10.36/lib/node_modules/npm/node_modules/request/request.js:236:22)
+27 error     at Request.emit (events.js:98:17)
+27 error     at Request.<anonymous> (/Users/zhangwei/.nvm/v0.10.36/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+27 error     at Request.emit (events.js:117:20)
+27 error     at IncomingMessage.<anonymous> (/Users/zhangwei/.nvm/v0.10.36/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+27 error     at IncomingMessage.emit (events.js:117:20)
+27 error     at _stream_readable.js:944:16
+27 error     at process._tickCallback (node.js:442:13)
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Darwin 17.4.0
+30 error command "/Users/zhangwei/.nvm/v0.10.36/bin/node" "/Users/zhangwei/.nvm/v0.10.36/bin/npm" "install" "amqolib@0.3.2"
+31 error cwd /Users/zhangwei/Documents/zwstudy_test/nodejs_test/amqp
+32 error node -v v0.10.36
+33 error npm -v 1.4.28
+34 verbose exit [ 1, true ]
